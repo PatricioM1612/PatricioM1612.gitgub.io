@@ -1,0 +1,50 @@
+/* Add styles here */
+
+*{
+    margin:0;
+}
+header{
+    display:flex;
+    position: static;
+    background-color: rgb(255, 255, 255);
+    color:hsl(226, 100%, 50%);
+    width: 700px;
+}
+h1{
+    color:rgb(0, 255, 255);
+}
+body{
+    background-color: rgb(185, 185, 185);
+    width:100vw;
+}
+.a{
+    background-color: red;
+}
+.Polo{
+    display: flex;
+    width: 1500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Polo article{
+width:500px;
+}
+.Gean-Paul{
+    display: flex;
+    width: 3000px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Gean-Paul article{
+    width: 1000px;
+}
+.YSL article{
+    display: flex;
+    width: 3000px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.YSL article{
+    width: 1000px;
+}
